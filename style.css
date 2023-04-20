@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url("https://img.freepik.com/free-vector/gradient-geometric-background_52683-54199.jpg?w=1480&t=st=1681984732~exp=1681985332~hmac=6d54a48abc94d9db2b01cfd90dbdbab9f788e549c4b411f98e58df33f0741053");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 50px auto;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: aliceblue;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+}
